@@ -1,0 +1,130 @@
+body{
+    margin: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    color: #9BA4B5;
+    background-color: lightgrey;
+    font-size: 30px;
+}
+
+/* All Div CSS */
+.front-container{
+    position: relative;
+    padding-top: 100px;
+    background-color: #DAF5FF;
+    text-align: center;
+}
+.main-container{
+    position: inherit;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: #EEEEEE;
+}
+
+
+.block1{
+    padding-top: 25px;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: .5fr .25fr;
+    grid-template-rows: .4fr .4fr;
+    gap: 1rem;
+    text-align: left;
+    clear: both;
+    
+}
+.item1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+.block2{
+    padding-top: 25px;
+    display: grid;
+    grid-template-columns: .5fr .25fr;
+    grid-template-rows: .4fr .4fr;
+    gap: 1rem;
+    text-align: left;
+    
+}
+.item2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+
+/* All Text CSS */
+.text1{
+    color: #9BA4B5;
+    font-size: 6rem;
+    padding-bottom: 25px;
+}
+.text2{
+    color: #9BA4B5;
+    font-size: 3rem;
+    padding: 20px;
+}
+.text3{
+    color: #9BA4B5;
+    font-size: 2rem;
+    padding: 10px;
+}
+.textp{
+    width: 40%;
+    font-size: 1.25rem;
+    margin: auto;
+    padding-bottom: 25px;
+}
+.textp2{
+    font-size: 1.25rem;
+    margin: auto;
+    padding-bottom: 25px;
+}
+.btn2{
+    background: #11cdd4;
+    border: 1px solid black  ;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+    margin: auto;
+    
+}
+
+/* All Image CSS */
+.home-img{
+    width: 550px;
+    height: 550px;
+    padding-top: 100px;
+    border-radius: 10%;
+}
+.profile-img {
+    width: 300px;
+    border-radius: 50%;
+}
+.medical-img{
+    width: 350px;
+    height: 250px;
+}
+.change-img{
+    width: 350px;
+    height: 250px;
+}
+.sport-img{
+    width: 350px;
+    height: 250px;
+}
+.speech-img{
+    width: 350px;
+    height: 250px;
+}
